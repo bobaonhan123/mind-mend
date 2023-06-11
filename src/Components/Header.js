@@ -38,7 +38,7 @@ function Header() {
     window.location.pathname.includes("/News") ? "curr-page" : ""
   );
   const [link3, setLink3] = useState(
-    window.location.pathname.includes("/Report") ? "curr-page" : ""
+    window.location.pathname.includes("/what-is-depression") ? "curr-page" : ""
   );
   const [link4, setLink4] = useState(
     window.location.pathname.includes("/about-us") ? "curr-page" : ""
@@ -46,7 +46,7 @@ function Header() {
   useEffect(() => {
     setLink1("/" === window.location.pathname ? "curr-page" : "");
     setLink2(window.location.pathname.includes("/News") ? "curr-page" : "");
-    setLink3(window.location.pathname.includes("/Report") ? "curr-page" : "");
+    setLink3(window.location.pathname.includes("/what-is-depression") ? "curr-page" : "");
     setLink4(window.location.pathname.includes("/about-us") ? "curr-page" : "");
     window.scrollTo(0,0);
   }, [CurrLink]);
@@ -67,7 +67,7 @@ function Header() {
           </Link>
         </li>
         <li key="3">
-          <Link to="/Report" className={link3}>
+          <Link to="/what-is-depression" className={link3}>
             Trầm cảm là gì?
           </Link>
         </li>
@@ -90,7 +90,7 @@ function Header() {
           </Link>
         </li>
         <li key="3" onClick={handleBar}>
-          <Link to="/Report" className={link3}>
+          <Link to="/what-is-depression" className={link3}>
             Trầm cảm là gì?
           </Link>
         </li>

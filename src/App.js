@@ -5,7 +5,7 @@ import Footer from './Components/Footer';
 import MainPage from './Components/Pages/MainPage';
 import AboutUs from './Components/Pages/AboutUs';
 import News from './Components/Pages/News';
-import Report from './Components/Pages/Report';
+import WhatIsDepression from './Components/Pages/WhatIsDepression';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<MainPage />} />
         <Route path='/News' element={<News />} />
-        <Route path='/Report' element={<Report />} />
+        <Route path='/what-is-depression' element={<WhatIsDepression />} />
         <Route path='/about-us' element={<AboutUs />} />
       </Routes>
       <Footer />

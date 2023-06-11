@@ -1,6 +1,6 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
-import '../../Assets/CSS/Report.css';
+import '../../Assets/CSS/WhatIsDepression.css';
 
 const AnimatedLeftToRight = ({ children }) => {
   const [ref, inView] = useInView({
@@ -39,7 +39,7 @@ const AnimatedBottomToTop = ({ children }) => {
   );
 };
 
-const Report = () => {
+const WhatIsDepression = () => {
     return (
       <div>
         <div className="report" >
@@ -94,4 +94,4 @@ const Report = () => {
     )
 }
 
-export default Report
+export default WhatIsDepression

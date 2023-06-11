@@ -56,11 +56,11 @@ html,body{ scroll-behavior: smooth}
 .Header .navbar > li:hover a,
 .Header .navbar > li a.curr-page,
 .Header .mobile-nav > li a.curr-page {
-  color: #2f9e44;
+  color: #4d8cd9;
 }
 
 .Header .mobile-nav > li a.curr-page {
-  background-color: #01ff302b;
+  background-color: #8fbcf233;
   border-radius: 10px;
 }
 
