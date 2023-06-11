@@ -68,12 +68,12 @@ function Header() {
         </li>
         <li key="3">
           <Link to="/Report" className={link3}>
-            Báo cáo
+            Trầm cảm là gì?
           </Link>
         </li>
         <li key="4">
           <Link to="/about-us" className={link4}>
-            Về chúng tôi
+            Chúng tớ là ai?
           </Link>
         </li>
       </ul>
@@ -91,12 +91,12 @@ function Header() {
         </li>
         <li key="3" onClick={handleBar}>
           <Link to="/Report" className={link3}>
-            Báo cáo
+            Trầm cảm là gì?
           </Link>
         </li>
         <li key="4" onClick={handleBar}>
           <Link to="/about-us" className={link4}>
-            Về chúng tôi
+            Chúng tớ là ai?
           </Link>
         </li>
       </ul>
