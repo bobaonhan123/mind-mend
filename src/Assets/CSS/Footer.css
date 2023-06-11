@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.footer {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #35415a;
+    color: #a7a7a7;
+    font-size: 16px;
+}
+
+.footer__container {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project__info {
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* align-items: center; */
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    white-space: nowrap;
+    margin-bottom: 1em;
+}
+
+.footer p {
+    width: 100%;
+    padding: 1em 0 0 0;
+}
+
+div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+    margin-left: -0.5em;
+    width: 90%;
+}
+
+.social FontAwesomeIcon {
+    color: #bac6d9;
+}
+
+.related__info>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.related__info>ul>li {
+    margin-top: 0.8em;
+}
+
+.related__info>ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+}
+
+.related__info>ul li a:hover {
+    color: #2a8ded;
+}
+
+.feedback__section {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin: 0.5em;
+}
+
+button {
+    background-color: #c7940a;
+    color: #ffffff;
+}
+
+.footer__copyright {
+    /* height: 3em; */
+    width: 100%;
+    font-size: 0.9em;
+    text-align: center;
+    /* margin-right: 2em; */
+    padding: 0.3em 1em;
+    background-color: #25262e;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project__info {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .social {
+        justify-content: center;
+        margin-left: unset;
+
+    }
+
+    .related__info>ul {
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer__container {
+        padding: 1em;
+        margin: 1em;
+    }
+
+    .project__info {
+        padding-left: unset;
+        width: 100%;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 1.2em;
+    }
+
+    .p {
+        width: 100%;
+        padding: 1em 0;
+    }
+
+    div.social {
+        font-size: 2em;
+        margin-left: unset;
+    }
+
+    .related__info>ul li {
+        margin-top: 0.5em;
+    }
+
+    input,
+    button {
+        font-size: 0.9em;
+        padding: 0.8em;
+    }
+}
