@@ -2,9 +2,6 @@ import {memo} from 'react'
 import { Link } from 'react-router-dom';
 
 import '../../Assets/CSS/MainPage.css';
-import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
-
-SwiperCore.use([Navigation, Pagination,Autoplay]);
 
 function MainPage() {
   
