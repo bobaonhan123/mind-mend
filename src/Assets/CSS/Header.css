@@ -41,7 +41,7 @@ html,body{ scroll-behavior: smooth}
 .Header .navbar > li a {
   transition: 0.5s;
   text-decoration: none;
-  color: rgb(226, 226, 226);
+  color: rgb(255, 255, 255);
   height: 100%;
   display: flex;
   align-items: center;
@@ -60,7 +60,7 @@ html,body{ scroll-behavior: smooth}
 }
 
 .Header .mobile-nav > li a.curr-page {
-  background-color: #8fbcf233;
+  background-color: #8fbcf240;
   border-radius: 10px;
 }
 

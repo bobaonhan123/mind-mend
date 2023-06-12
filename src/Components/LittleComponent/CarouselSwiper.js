@@ -28,15 +28,6 @@ const CarouselSwiper = () => {
         },
         {
             id: 2,
-            name: 'Võ Thanh Phong',
-            studentId: '22IT222',
-            introduction: 'Mãi một lòng yêu trường VKU không bao giờ mai một.',
-            facebook: 'https://www.facebook.com/JustA707',
-            github: 'https://github.com/JustAG7',
-            avatar: 'external/JustA.jpg',
-        },
-        {
-            id: 3,
             name: 'Hồ Sỹ Bảo Nhân',
             studentId: '22IT198',
             introduction:
@@ -45,15 +36,7 @@ const CarouselSwiper = () => {
             github: 'https://github.com/bobaonhan123',
             avatar: 'external/Bit0.jpg',
         },
-        {
-            id: 4,
-            name: 'Nguyễn Phú Thịnh',
-            studentId: '22IT280',
-            introduction: 'Sinh viên là những người trẻ tuổi tràn đầy nhiệt huyết và trách nhiệm, họ có trách nhiệm bảo vệ rừng để gìn giữ cho tương lai của chúng ta xanh tươi và bền vững hơn..',
-            facebook: 'https://www.facebook.com/ting12q',
-            github: 'https://github.com/vkutin12q',
-            avatar: 'external/tin12q.jpg',
-        },
+        
         // Thêm các thành viên khác vào đây
     ];
 
