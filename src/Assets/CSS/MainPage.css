@@ -6,7 +6,7 @@
   font-family: Montserrat, sans-serif;
 }
 
-.intro-img {
+.main-page .intro-img {
   height: 100vh;
   width: 100%;
   background: url("../Img/Background/Mainpage-background-1.jpg"); 
@@ -17,7 +17,7 @@
   transition: 0.5s;
 }
 
-.intro-img2 {
+.main-page .intro-img2 {
   /* background: url("../Img/BackgroundPage1-2.jpg"); */
   background-size: cover;
 }
@@ -27,7 +27,7 @@
   background-size: cover;
 } */
 
-.intro-page {
+.main-page .intro-page {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -36,17 +36,17 @@
   margin-top: 0;
 }
 
-.intro-page .intro-contentpane {
+.main-page .intro-page .intro-contentpane {
   background: rgba(49, 49, 49, 0.204);
   width: 70%;
-  height: 60vh;
+  height: 50vh;
   border-radius: 10px;
   padding: 30px 20px;
   backdrop-filter: blur(2px);
   z-index: 0;
 }
 
-.intro-page .intro-contentpane h1 {
+.main-page .intro-page .intro-contentpane h1 {
   font-size: 5rem;
   text-align: center;
   text-transform: uppercase;
@@ -54,13 +54,13 @@
   color: white;
 }
 
-.intro-page .intro-contentpane p {
+.main-page .intro-page .intro-contentpane p {
   padding: 20px;
   font-size: 2rem;
   color: #fefefecc;
 }
 
-.prevention-page,.contact-page {
+.main-page .prevention-page,.contact-page {
   width: 100%;
   height: 100vh;
   background-color: #f4f4f4;
@@ -69,25 +69,25 @@
   justify-content: space-around;
 }
 
-.prevention-page .prevention-content-pane,
-.contact-page .contact-content-pane {
+.main-page .prevention-page .prevention-content-pane,
+.main-page .contact-page .contact-content-pane {
   width: 55%;
 }
 
-.prevention-page .prevention-content-pane h1,
-.contact-page .contact-content-pane h1 {
+.main-page .prevention-page .prevention-content-pane h1,
+.main-page .contact-page .contact-content-pane h1 {
   text-transform: uppercase;
   font-size: 3rem;
   padding: 1rem 2rem;
 }
 
-.prevention-page .prevention-content-pane p,
-.contact-page .contact-content-pane p {
+.main-page .prevention-page .prevention-content-pane p,
+.main-page .contact-page .contact-content-pane p {
   font-size: 2rem;
   padding: 1rem 2rem;
 }
 
-.prevention-page .image {
+.main-page .prevention-page .image {
 
     width: 30%;
     height: 35vh;
@@ -98,14 +98,14 @@
 	transition: .3s ease-in;
 }
 
-.prevention-page .image:hover {
+.main-page .prevention-page .image:hover {
     -webkit-transform: scale(1.1);
 	transform: scale(1.1);
 
 }
 
-.prevention-page .prevention-content-pane > a,
-.contact-page .contact-content-pane>a {
+.main-page .prevention-page .prevention-content-pane > a,
+.main-page .contact-page .contact-content-pane>a {
   display: flex;
   text-decoration: none;
   align-items: center;
@@ -121,12 +121,12 @@
   margin: 50px 10px 10px auto;
 }
 
-.prevention-page .prevention-content-pane > a:hover,
-.contact-page .contact-content-pane>a:hover {
+.main-page .prevention-page .prevention-content-pane > a:hover,
+.main-page .contact-page .contact-content-pane>a:hover {
   background: linear-gradient(90deg, #f4791f, #659999);
 }
 
-.news-page {
+.main-page .news-page {
   width: 100%;
   height: 100vh;
   padding: 40px 50px;
@@ -138,7 +138,7 @@
   backdrop-filter: blur(5px);
 }
 
-.news-page > .title {
+.main-page .news-page > .title {
   text-align: center;
   padding: 1.5rem;
   font-size: 3rem;
@@ -146,7 +146,7 @@
   color: rgb(255, 255, 255);
 }
 
-.news-pane {
+.main-page .news-pane {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -156,7 +156,7 @@
   height: 60vh;
 }
 
-.news-page > a {
+.main-page .news-page > a {
   display: flex;
   text-decoration: none;
   align-items: center;
@@ -165,27 +165,27 @@
   height: 50px;
   width: 200px;
   font-weight: bold;
-  color: white;
-  background-color: #4b4b4bce;
+  color: #659bdb;
+  background-color: rgb(255, 255, 255);
   transition: 0.5s;
   border-radius: 5px;
 }
 
-.news-page > a:hover {
-  background: linear-gradient(90deg, #f4791f, #659999);
+.main-page .news-page > a:hover {
+  background-color: rgb(175, 175, 175);
 }
 
-.contact-page {
+.main-page .contact-page {
   width: 100%;
   height: 100vh;
   background-color: white;
 }
 
-.contact-page .image {
+.main-page .contact-page .image {
 
   width: 30%;
   height: 35vh;
-  /* background: url('../Img/VKU.jpg'); */
+  background: url('../Img/Resoucres/VKU.jpg'); 
   background-size: cover;
   border-radius: 10px;
   -webkit-transition: .3s ease-in;
@@ -194,26 +194,26 @@ transition: .3s ease-in;
 
 
 @media only screen and (max-width: 800px) {
-  .intro-page .intro-contentpane {
+  .main-page .intro-page .intro-contentpane {
     margin: 150px auto;
     width: 90%;
   }
 
-  .intro-page .intro-contentpane h1,
-  .prevention-page .prevention-content-pane h1,
-  .contact-page .contact-content-pane h1 {
+  .main-page .intro-page .intro-contentpane h1,
+  .main-page .prevention-page .prevention-content-pane h1,
+  .main-page .contact-page .contact-content-pane h1 {
     font-size: 2.4rem;
     padding: 10px;
     text-transform: uppercase;
   }
 
-  .intro-page .intro-contentpane p,
-  .prevention-page .prevention-content-pane p,
-  .contact-page .contact-content-pane p {
+  .main-page .intro-page .intro-contentpane p,
+  .main-page .prevention-page .prevention-content-pane p,
+  .main-page .contact-page .contact-content-pane p {
     font-size: 1.6rem;
     padding: 10px;
   }
-  .news-pane {
+  .main-page .news-pane {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -222,21 +222,21 @@ transition: .3s ease-in;
     overflow: hidden;
     height: 60vh;
   }
-  .intro-page .image,
-  .contact-page .image {
+  .main-page .intro-page .image,
+  .main-page .contact-page .image {
     display: none;
   }
-  .prevention-page,.contact-page {
+  .main-page .prevention-page,.contact-page {
     flex-wrap: wrap;
     padding: 20px;
   }
-  .prevention-page .prevention-content-pane,
-  .contact-page .contact-content-pane {
+  .main-page .prevention-page .prevention-content-pane,
+  .main-page .contact-page .contact-content-pane {
     width: 95%;
     overflow: hidden;
   }
-  .prevention-page .prevention-content-pane > a,
-  .contact-page .contact-content-pane>a {
+  .main-page .prevention-page .prevention-content-pane > a,
+  .main-page .contact-page .contact-content-pane>a {
     margin: inherit auto;
     width: 100%;
   }
@@ -244,23 +244,23 @@ transition: .3s ease-in;
 
 
 @media only screen and (max-width: 800px) {
-    .intro-page .intro-contentpane {
+    .main-page .intro-page .intro-contentpane {
         margin: 150px auto;
         width: 90%;
     }
 
-    .intro-page .intro-contentpane h1,.prevention-page .prevention-content-pane h1 {
+    .main-page .intro-page .intro-contentpane h1,.prevention-page .prevention-content-pane h1 {
         font-size: 2.4rem;
         padding: 10px;
 
     }
 
-    .intro-page .intro-contentpane p,.prevention-page .prevention-content-pane p {
+    .main-page .intro-page .intro-contentpane p,.prevention-page .prevention-content-pane p {
         font-size: 1.6rem;
         padding: 10px;
     }
 
-    .news-pane {
+    .main-page .news-pane {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -269,18 +269,18 @@ transition: .3s ease-in;
         overflow: hidden;
         height: 60vh;
     }
-    .prevention-page .image {
+    .main-page .prevention-page .image {
         display: none;
     }
-    .prevention-page {
+    .main-page .prevention-page {
         flex-wrap: wrap;
         padding: 20px;
     }
-    .prevention-page .prevention-content-pane {
+    .main-page .prevention-page .prevention-content-pane {
         width: 95%;
         overflow: hidden;
     }
-    .prevention-page .prevention-content-pane>a {
+    .main-page .prevention-page .prevention-content-pane>a {
         margin: inherit auto;
         width: 100%;
     }

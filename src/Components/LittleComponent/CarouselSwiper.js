@@ -24,7 +24,7 @@ const CarouselSwiper = () => {
             introduction: 'Bảo vệ rừng, bảo vệ môi trường - Lí tưởng vì tương lai bền vững.',
             facebook: 'https://www.facebook.com/fbhoangtanphuquoc',
             github: 'https://github.com/phuquocchamp',
-            avatar: 'external/phuquocchamp.jpg',
+            avatar: './PublicAssets/Img/phuquocchamp.jpg',
         },
         {
             id: 2,
@@ -34,7 +34,7 @@ const CarouselSwiper = () => {
                 'Tôi luôn tin rằng việc bảo vệ rừng không chỉ giúp bảo tồn môi trường mà còn bảo vệ sự sống và tương lai của chính chúng ta.',
             facebook: 'https://www.facebook.com/hosybaonhan',
             github: 'https://github.com/bobaonhan123',
-            avatar: 'external/Bit0.jpg',
+            avatar: './PublicAssets/Img/Bit0.jpg',
         },
         
         // Thêm các thành viên khác vào đây

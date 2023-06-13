@@ -63,7 +63,7 @@ function Header() {
         </li>
         <li key="2">
           <Link to="/News" className={link2}>
-            Thông tin
+            Chia sẻ
           </Link>
         </li>
         <li key="3">
@@ -86,7 +86,7 @@ function Header() {
         </li>
         <li key="2" onClick={handleBar}>
           <Link to="/News" className={link2}>
-            Thông tin
+            Chia sẻ
           </Link>
         </li>
         <li key="3" onClick={handleBar}>

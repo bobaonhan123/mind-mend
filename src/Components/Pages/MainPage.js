@@ -11,7 +11,7 @@ function MainPage() {
           <div className='intro-page'>
             <div className='intro-contentpane'>
               <h1>096 306 1414</h1>
-              <p>“Hãy bảo vệ rừng của chúng ta, đó là nguồn sống của tất cả chúng ta và là một phần quan trọng của hệ sinh thái trái đất.”</p>
+              <p><a href='https://duongdaynongngaymai.vn/' style={{'text-decoration':'none','color':'inherit'}} target='blank'>“Đường dây nóng ngày mai”</a> Đường dây nóng hỗ trợ miễn phí người đang trong khủng hoảng tâm lý</p>
             </div>
           </div>
 
@@ -27,7 +27,7 @@ function MainPage() {
         <div className='image'></div>
       </div>
       <div className='news-page'>
-        <h1 className='title'>Tin tức</h1>
+        <h1 className='title'>Blog</h1>
         <div className='news-pane'>
           
         </div>
@@ -36,7 +36,7 @@ function MainPage() {
       <div className='contact-page'>
         <div className='contact-content-pane'>
           <div>
-            <h1>Chúng tôi là ai</h1>
+            <h1>Chúng tớ là ai</h1>
             <p>Chúng tôi là một nhóm sinh viên đến từ VKU. Phát triển dự án FireWing với mục tiêu cung cấp thông tin và dự báo về cháy rừng sử dụng công nghệ AI.</p>
 
           </div>
