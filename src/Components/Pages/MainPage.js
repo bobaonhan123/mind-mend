@@ -18,10 +18,9 @@ function MainPage() {
       <div className='prevention-page'>
         <div className='prevention-content-pane'>
           <div>
-            <h1>Trầm cảm là gì
+            <h1>Trầm cảm là gì ?
             </h1>
-            <p>Đóng góp cho công cuộc bảo vệ rừng của chúng ta, đó là nguồn sống của tất cả chúng ta và là một phần quan trọng của hệ sinh thái trái đất.</p>
-
+            <p>Trầm cảm là một nỗi đau tinh thần đáng sợ, khiến con người rơi vào trạng thái suy đồi và mất hứng thú với cuộc sống. Nó là một căn bệnh tâm lý ảnh hưởng đến rất nhiều người trên khắp thế giới, không phân biệt tuổi tác hay giới tính.</p>
           </div>
           <Link to='/what-is-depression'>Tìm hiểu thêm</Link>
         </div>
@@ -41,7 +40,7 @@ function MainPage() {
             <p>Chúng tớ nhóm sinh viên đến từ VKU. Phát triển dự án MindMend với mục tiêu góp phần hỗ trợ người có ảnh hưởng về tâm lý và nâng cao nhận thức của mọi người về trầm cảm nói riêng và tâm lý nói chung.</p>
 
           </div>
-          <Link to='/about-us'>Tìm hiểu thêm</Link>
+          <Link to='/about-us'>Chi tiết</Link>
         </div>
         <div className='image'></div>
       </div>

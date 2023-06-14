@@ -117,7 +117,7 @@
   width: 300px;
   font-weight: bold;
   color: white;
-  background-color: #4b4b4bce;
+  background-color: #659bdb;
   transition: 0.5s;
   border-radius: 5px;
   margin: 50px 10px 10px auto;
@@ -125,7 +125,8 @@
 
 .main-page .prevention-page .prevention-content-pane > a:hover,
 .main-page .contact-page .contact-content-pane>a:hover {
-  background: linear-gradient(90deg, #f4791f, #659999);
+  color: #fbbec1;
+  background-color: #71a2dddf;
 }
 
 .main-page .news-page {
