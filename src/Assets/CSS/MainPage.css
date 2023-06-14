@@ -91,8 +91,10 @@
 
     width: 30%;
     height: 35vh;
-    /* background: url('../Img/Fire.jpg'); */
-    background-size: cover;
+    background: url('../Img/Resoucres/depression-vs-sadness.png'); 
+    
+    background-size:100%;
+    background-repeat: no-repeat;
     border-radius: 10px;
     -webkit-transition: .3s ease-in;
 	transition: .3s ease-in;
@@ -172,7 +174,7 @@
 }
 
 .main-page .news-page > a:hover {
-  background-color: rgb(175, 175, 175);
+  background-color: rgba(233, 233, 233, 0.905);
 }
 
 .main-page .contact-page {

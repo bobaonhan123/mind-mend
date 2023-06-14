@@ -18,11 +18,12 @@ function MainPage() {
       <div className='prevention-page'>
         <div className='prevention-content-pane'>
           <div>
-            <h1>Chung tay bảo vệ rừng</h1>
+            <h1>Trầm cảm là gì
+            </h1>
             <p>Đóng góp cho công cuộc bảo vệ rừng của chúng ta, đó là nguồn sống của tất cả chúng ta và là một phần quan trọng của hệ sinh thái trái đất.</p>
 
           </div>
-          <Link to='/Report'>Báo cáo</Link>
+          <Link to='/what-is-depression'>Tìm hiểu thêm</Link>
         </div>
         <div className='image'></div>
       </div>
@@ -37,7 +38,7 @@ function MainPage() {
         <div className='contact-content-pane'>
           <div>
             <h1>Chúng tớ là ai</h1>
-            <p>Chúng tôi là một nhóm sinh viên đến từ VKU. Phát triển dự án FireWing với mục tiêu cung cấp thông tin và dự báo về cháy rừng sử dụng công nghệ AI.</p>
+            <p>Chúng tớ nhóm sinh viên đến từ VKU. Phát triển dự án MindMend với mục tiêu góp phần hỗ trợ người có ảnh hưởng về tâm lý và nâng cao nhận thức của mọi người về trầm cảm nói riêng và tâm lý nói chung.</p>
 
           </div>
           <Link to='/about-us'>Tìm hiểu thêm</Link>
