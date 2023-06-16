@@ -1,58 +1,47 @@
 const data =[
     {
         id:1,
-        soucre:'VTV',
-        title:'Cháy rừng vượt tầm kiểm soát ở Tây Ban Nha',
-        description:'VTV.vn - Hơn 500 người đã phải sơ tán khi các đám cháy rừng lan rộng, vượt tầm kiểm soát ở phía Tây của Tây Ban Nha, khu vực giáp biên giới Bồ Đào Nha.',
-        content:`Đám cháy đã thiêu rụi ít nhất 1500 ha rừng, hàng trăm lính cứu hỏa được điều động. Tuy nhiên thời tiết khô hanh và gió lớn khiến việc dập lửa rất khó khăn.
-
-Giới chức địa phương cho biết, nhiều khả năng vụ cháy rừng này là hành động có chủ ý, tuy nhiên không cho biết thêm thông tin chi tiết.
-
-Năm ngoái, Tây Ban Nha ghi nhận gần 500 vụ cháy rừng, con số cao kỷ lục.`,
-        imageURL:'./PublicAssets/Img/News/ID1.webp',
-        URL:'https://vtv.vn/the-gioi/chay-rung-vuot-tam-kiem-soat-o-tay-ban-nha-20230519202203697.htm'
+        soucre:'boluminhhiuman',
+        title:'Hãy nói "Cố lên" ít đi',
+        description:`- “Hôm nay cậu có vẻ không ổn?”
+        - Không. Mình không ổn từ rất lâu rồi. Chỉ là hôm nay mình không có đủ năng lượng để che giấu nữa.`,
+        content:`Thực ra, đối với những người mắc bệnh tâm lý, những người đang phải vật lộn với bóng tối bên trong mình, để đến lúc cậu có cơ hội để nói với họ “Cố lên!”, thì đó cũng là lúc họ dường như không thể cố được nữa rồi.
+        Nếu họ vẫn còn cố gắng được thì chắc hẳn cậu sẽ không thể biết sự thật họ đang ở trong hoàn cảnh như vậy.
+        Vậy nên, không phải là họ không ý thức được hay chưa từng nhắc nhở bản thân mình “Cố lên!”, chỉ đơn giản là “sự cố gắng” của họ không giống như những gì cậu thường nghĩ.
+        Có những ngày, hít thở với họ cũng là một loại cố gắng.`,
+        imageURL:'./PublicAssets/Img/News/ID1.jpg',
+        URL:'https://www.facebook.com/boluminhhiuman/posts/pfbid02TjjW1fNGPyhYG612ATBqCMSaBn2Z1uXrMdWEEpEKm8QY64rPJTmRJDPzGybo276bl'
     },
     {
         id:2,
-        soucre:'VTV',
-        title:'Cháy rừng lan rộng ở miền Tây Canada',
-        description:'VTV.vn - Các đám cháy rừng lan rộng ở tỉnh Alberta, miền Tây Canada đang gây tác động xấu đến chất lượng không khí, ảnh hưởng đến hoạt động khai thác dầu.',
-        content:`Chất lượng không khí kém, tầm nhìn giảm do thời tiết khô hanh, trong khi gió đổi chiều làm tăng nguy cơ cháy rừng lan rộng.
-
-        Các đám cháy rừng ở Alberta buộc các nhà sản xuất dầu mỏ và khí đốt phải tạm ngừng hoạt động một số cơ sở, làm giảm sản lượng tương đương 319.000 thùng dầu/ngày.
-        
-        Giá dầu thô nặng của Canada đã tăng lên các mức cao do những quan ngại về các vụ cháy rừng.
-        
-        Chính quyền tỉnh Alberta cho biết, trên toàn tỉnh đang xảy ra khoảng 90 vụ cháy rừng, trong đó 23 vụ ngoài tầm kiểm soát, buộc khoảng 20.000 người dân phải sơ tán.`,
-        imageURL:'./PublicAssets/Img/News/ID2.webp',
-        URL:'https://vtv.vn/the-gioi/chay-rung-lan-rong-o-mien-tay-canada-20230517164903016.htm'
+        soucre:'boluminhhiuman',
+        title:'Gửi tôi của nhiều năm về trước ...',
+        description:'“Dường như chỉ có tôi, đang một mình dò dẫm trong bóng tối. Cô đơn và tuyệt vọng”',
+        content:`Nhưng cậu à, cậu biết điều gì không? Thực ra vì đang ở trong bóng tối của mình nên chúng ta có thể không nhìn thấy được rằng thực tế, mọi người cũng đang mò mẫm và bước đi một cách mơ hồ như vậy. Không có ai là đã biết hết mọi câu trả lời.
+        Có người đi trong bóng tối nhưng tĩnh lặng, có người đi trong ánh sáng nhưng bão bùng, có người đi trong màn sương nhưng lạnh lẽo… Rất nhiều hành trình như thế. Vì vậy, cậu không hề cô đơn và cũng đừng sợ cảm giác cô đơn. Bởi nó không ở đó để làm hại cậu, mà là để nhắc cậu quay trở về quan tâm và yêu thương bản thân thật nhiều.
+        Và cậu biết điều gì thú vị về sự tuyệt vọng không? Đó chính là khi cậu thấy mình tuyệt vọng thì có nghĩa là cậu đã dùng hết những thứ cậu có thể tìm kiếm ở bên ngoài để làm lý do, làm động lực, làm sức mạnh cho mình, và đã đến lúc cậu cần khai phá tiềm năng nằm sâu bên trong để tìm ra những tài nguyên cần thiết cho việc bước tiếp trên hành trình mà cậu đang đi. Chúng không hề ít. Nhưng quan trọng là cậu cần kiên nhẫn đào sâu thêm từng chút để phát hiện.
+        Hãy tin tớ. Chỉ cần cậu kiên nhẫn, cậu rồi sẽ nhìn thấy lối ra. Lối ra đã ở đó chờ cậu rồi, chỉ cần trái tim cậu sẵn lòng để đón nhận thôi. Bằng cách nào ư? Bằng cách tin tưởng vào chính mình một cách hồn nhiên nhất trong từng khoảnh khắc hiện tại, kể cả khi cậu chưa nắm trong tay bất cứ một bằng chứng nào.`,
+        imageURL:'./PublicAssets/Img/News/ID2.jpg',
+        URL:'https://www.facebook.com/boluminhhiuman/posts/pfbid0qvLcJWoJx6jhgESftoakbbQfgQn2yBDGHBBXXfoJJTz4HzWAsYgewL71GCUQLhqel'
     },
     {
         id:3,
-        soucre:'Nhân Dân',
-        title:'Triển khai hàng loạt biện pháp, không để cháy rừng bùng phát',
-        description:'Theo Cục Kiểm lâm (Bộ Nông nghiệp và Phát triển nông thôn), từ đầu năm đến nay, cháy rừng đã xảy ra tại nhiều điểm thuộc các tỉnh Lai Châu, Sơn La, Bắc Giang, Lâm Đồng, Bà Rịa-Vũng Tàu, Phú Yên, Đắk Lắk… Riêng tại tỉnh Lai Châu, chỉ trong ngày 18/4 có 20 điểm cháy rừng ở các huyện Mường Tè, Sìn Hồ và Than Uyên.',
-        content:`Trước đó, tại tỉnh Lâm Đồng đã xảy ra cháy rừng khu vực đèo Prenn (thành phố Đà Lạt) khiến hơn 10ha rừng thông bị thiệt hại, trong đó có những diện tích rừng thông nguyên sinh tuổi đời khoảng 70 năm, thuộc đối tượng là rừng phòng hộ. Tại tỉnh Bà Rịa-Vũng Tàu cũng đã xảy ra cháy rừng tại khu vực núi Dinh (thành phố Bà Rịa) gây thiệt hại 15ha rừng…
-
-        Những ngày gần đây do thời tiết nắng nóng, hanh khô, hầu hết các địa phương có rừng đều được ngành kiểm lâm cảnh báo có nguy cơ cháy rừng; trong đó, các tỉnh Lai Châu, Sơn La, Nghệ An, Hà Tĩnh, Bình Thuận, Ninh Thuận, An Giang, Cà Mau, Đồng Tháp và khu vực Tây Nguyên thuộc vùng cảnh báo có nguy cơ cháy rừng ở cấp cực kỳ nguy hiểm.
-        
-        Trung tâm Dự báo Khí tượng-Thủy văn quốc gia dự báo, thời gian tới, sẽ tiếp tục có những đợt nắng nóng trên diện rộng tại nhiều khu vực. Trong đó, có những nơi nhiệt độ rất cao (hơn 400C) dễ xảy ra cháy rừng.
-        
-        Hiện tại đã có hơn 50 điểm rừng trên cả nước được cảnh báo có khả năng cháy rừng ở cấp nguy hiểm (cấp IV) và cấp cực kỳ nguy hiểm (cấp V), do đó đề nghị các địa phương có rừng tập trung cao độ, chủ động tích cực phòng cháy, chữa cháy rừng.
-        
-        Ngày 3/1/2023, Thủ tướng Chính phủ ban hành Chỉ thị số 01/CT-TTg về tăng cường công tác phòng cháy, chữa cháy trong tình hình mới; giao Bộ Nông nghiệp và Phát triển nông thôn tăng cường chỉ đạo công tác phòng cháy, chữa cháy rừng tại các địa phương, nhất là các khu vực trọng điểm về cháy rừng; đẩy mạnh ứng dụng công nghệ cao trong dự báo, cảnh báo nguy cơ cháy rừng và phát hiện sớm cháy rừng, nhằm nâng cao chất lượng, hiệu quả phòng cháy, chữa cháy rừng, giảm đến mức thấp nhất thiệt hại do các vụ cháy rừng; khẩn trương xây dựng các quy chuẩn, tiêu chuẩn quốc gia về phòng cháy, chữa cháy rừng.
-        
-        Triển khai thực hiện chỉ đạo của Chính phủ, Bộ Nông nghiệp và Phát triển nông thôn đã có văn bản gửi ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương đề nghị chủ động trong công tác phòng, chống cháy rừng, nhất là thời kỳ cao điểm mùa khô, nắng nóng; phân công trách nhiệm thực hiện công tác phòng cháy, chữa cháy rừng; chỉ đạo các lực lượng kiểm lâm, công an, quân đội tăng cường phối hợp chặt chẽ, thực hiện quy chế phối hợp trong công tác bảo vệ rừng, phòng cháy, chữa cháy rừng; có các phương án bảo đảm nhân lực, vật tư, trang thiết bị và hậu cần, thường trực, sẵn sàng phối hợp lực lượng ứng phó, xử lý các tình huống cấp bách trong bảo vệ rừng và phòng cháy, chữa cháy rừng, không để xảy ra cháy lớn; khi xảy ra cháy rừng chỉ đạo điều tra, xác định nguyên nhân và đối tượng gây ra cháy rừng để xử lý theo quy định của pháp luật.
-        
-        Chính quyền các địa phương cần tăng cường tuyên truyền, giáo dục nâng cao ý thức, trách nhiệm trong cộng đồng xã hội về công tác phòng cháy, chữa cháy; kiểm tra, đôn đốc và hướng dẫn các chủ rừng kiểm soát việc sử dụng lửa trong rừng và gần rừng của người dân.
-        
-        Các lực lượng tăng cường tuần tra, chuẩn bị phương tiện sẵn sàng tham gia chữa cháy rừng; hướng dẫn, giám sát chặt chẽ việc đốt nương làm rẫy; thông báo người dân tạm dừng đốt dọn thực bì để sản xuất nương rẫy trong thời gian cao điểm nắng nóng, khô hanh.
-        
-        Bố trí canh phòng 24/24 giờ tại những khu vực trọng điểm, khi phát hiện đám cháy phải khẩn trương huy động lực lượng, triển khai ngay các biện pháp chữa cháy, xử lý triệt để đám cháy nhằm hạn chế tới mức thấp nhất thiệt hại...
-        
-        Cùng với việc ngăn chặn hiệu quả, tận gốc các hành vi có thể gây cháy rừng, các lực lượng chủ động phương châm “4 tại chỗ”; chính quyền các địa phương, các cơ quan nhà nước có thẩm quyền cần xử lý nghiêm đối tượng vi phạm theo quy định của pháp luật và trách nhiệm của người đứng đầu do buông lỏng quản lý để xảy ra cháy rừng…`,
+        soucre:'boluminhhiuman',
+        title:'Trầm cảm “trông” như thế nào ?',
+        description:`Khi cậu nói cậu bị trầm cảm
+        Tất cả những gì tớ thấy là sự kiên cường.
+        Không sao cả nếu cậu cảm thấy hỗn loạn và mơ hồ cả ở bên trong lẫn bên ngoài.
+        Điều đó không có nghĩa là cậu thiếu sót, cậu sai hay cậu “hỏng” ở đâu đó.
+        Mà chỉ đơn giản vì cậu cũng là con người.`,
+        content:`Khi cậu nói cậu bị trầm cảm
+        Tất cả những gì tớ thấy là sự kiên cường.
+        Không sao cả nếu cậu cảm thấy hỗn loạn và mơ hồ cả ở bên trong lẫn bên ngoài.
+        Điều đó không có nghĩa là cậu thiếu sót, cậu sai hay cậu “hỏng” ở đâu đó.
+        Mà chỉ đơn giản vì cậu cũng là con người.
+        Hãy nhìn vào mình ở trong gương và nói “tôi biết mình không ổn. Nhưng tôi không sợ điều đó. Thay vì chịu đựng, tôi sẽ chiến đấu mỗi ngày”
+        Cậu không cần phải thắng hay thua. Chỉ đơn giản là cậu đã dũng cảm đấu tranh như thế nào. Đừng từ bỏ hy vọng ở bản thân mình. Cậu vẫn còn hy vọng, kể cả tâm trí cậu đang bảo không phải vậy.`,
         imageURL:`./PublicAssets/Img/News/ID3.jpg`,
-        URL:'https://nhandan.vn/tang-cuong-cac-giai-phap-phong-chong-chay-rung-post754473.html'
+        URL:'https://www.facebook.com/boluminhhiuman/posts/pfbid0EZbHS42TsJNuULkkBSjqZUyRw8wj2rhe9Pd4V8qMR5Vyh3mBkDHsQ4hgJr1MbTmkl'
     }
 
 ];
