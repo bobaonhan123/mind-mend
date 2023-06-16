@@ -1,4 +1,4 @@
-import '../../CSS/NewsComponent.css';
+import '../../Assets/CSS/NewsComponent.css';
 function NewsComponent({data}) {
   return (
     <div className="news-component">

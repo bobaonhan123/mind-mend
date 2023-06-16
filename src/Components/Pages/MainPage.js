@@ -2,9 +2,10 @@ import {memo} from 'react'
 import { Link } from 'react-router-dom';
 
 import '../../Assets/CSS/MainPage.css';
-
+import NewsData from '../../Data/NewsData';
+import NewsComponent from '../LittleComponent/NewsComponent';
 function MainPage() {
-  
+  const DataArr = NewsData();
   return (
     <div className="main-page">
           <div className='intro-img'></div>
@@ -29,7 +30,9 @@ function MainPage() {
       <div className='news-page'>
         <h1 className='title'>Blog</h1>
         <div className='news-pane'>
-          
+        {DataArr.map((data) => {
+            return (<NewsComponent key={data.id} data={data} />);
+          })}
         </div>
         <Link className='more' to='/News'>Xem thêm</Link>
       </div>
