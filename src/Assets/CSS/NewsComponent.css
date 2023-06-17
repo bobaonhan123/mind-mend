@@ -36,6 +36,7 @@
   border-radius: 5px;
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
+  object-fit: cover;
 }
 
 
