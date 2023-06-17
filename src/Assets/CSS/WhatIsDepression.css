@@ -58,3 +58,21 @@
     font-size: 2rem;
     color: #fefefecc;
   }
+
+  @media only screen and (max-width: 800px) {
+    .what-is-depression .intro-page .intro-contentpane {
+        margin: 150px auto;
+        width: 90%;
+    }
+
+    .what-is-depression .intro-page .intro-contentpane h1,.prevention-page .prevention-content-pane h1 {
+        font-size: 2.4rem;
+        padding: 10px;
+
+    }
+
+    .what-is-depression .intro-page .intro-contentpane p,.prevention-page .prevention-content-pane p {
+        font-size: 1.6rem;
+        padding: 10px;
+    }
+  }
