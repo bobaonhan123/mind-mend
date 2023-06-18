@@ -18,7 +18,7 @@ function MainPage() {
           <div className='intro-page'>
             <div className='intro-contentpane' style={IntroPaneOpacity}>
               <h1>096 306 1414</h1>
-              <p><a href='https://duongdaynongngaymai.vn/' style={{'text-decoration':'none','color':'inherit'}} target='blank'>“Đường dây nóng ngày mai”</a> Đường dây nóng hỗ trợ miễn phí người đang trong khủng hoảng tâm lý</p>
+              <p><a href='https://duongdaynongngaymai.vn/' style={{textDecoration:'none','color':'inherit'}} target='blank'>“Đường dây nóng ngày mai”</a> Đường dây nóng hỗ trợ miễn phí người đang trong khủng hoảng tâm lý</p>
             </div>
           </div>
 
