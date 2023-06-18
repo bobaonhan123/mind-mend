@@ -7,7 +7,7 @@ function Header() {
   const [mobileNavStyle, setMobileNavStyle] = useState({ top: "100px" });
   const [HeaderClass, setHeaderClass] = useState("Header");
   let handleScroll = () => {
-    if (window.pageYOffset > 1) {
+    if (window.scrollY > 1) {
       setHeaderClass("Header white-header");
       setMobileNavStyle({ top: "70px" });
     } else {
@@ -25,7 +25,7 @@ function Header() {
   };
 
   window.addEventListener("resize", () => {
-    if (window.innerWidth > 600) {
+    if (window.innerWidth > 1000) {
       setBarClass("mobile-nav");
     }
   });
