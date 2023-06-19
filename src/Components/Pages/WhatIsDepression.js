@@ -42,7 +42,13 @@ useEffect(()=>{
           <SwiperSlide>
             <div className='intro-contentpane'>
               <h1>TRẦM CẢM VÀ NỖI BUỒN</h1>
-              <p>Trầm cảm là gì? Nhiều người hay nhầm tưởng với nỗi buồn. Chúng tớ muốn giải thích bằng một trang riêng chứ không chỉ là một bài viết trong trang "chia sẻ".</p>
+              <p>Nỗi buồn là cảm xúc tự nhiên, trầm cảm là rối loạn tâm lý. Khuyên một người trầm cảm quên đi nỗi buồn của mình không có tác dụng. Trầm cảm không chỉ là một cảm xúc bình thường mà có thể vượt qua được.</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='intro-contentpane'>
+              <h1>TRẦM CẢM LÀ</h1>
+              <p>Trầm cảm là đám mây mù che phủ đi tầm nhìn của cậu, khiến bầu trời xanh qua đôi mắt cậu trở thành màu u ám, cậu cố gắng vùng vẫy nhưng không thể xua đi.</p>
             </div>
           </SwiperSlide>
         </Swiper>

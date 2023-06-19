@@ -20,11 +20,11 @@
     background: url("../Img/Background/what-is-depression-background-2.jpg");
     background-size: cover;
   }
-  /* 
-  .intro-img3 {
-    background: url("../Img/BackgroundPage1-3.jpg");
+  
+  .what-is-depression .intro-img3 {
+    background: url("../Img/Background/what-is-depression-background-3.jpg");
     background-size: cover;
-  } */
+  }
   
   .what-is-depression .intro-page {
     height: 100vh;
