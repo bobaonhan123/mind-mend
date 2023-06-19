@@ -31,7 +31,7 @@ const CarouselSwiper = () => {
             name: 'Hồ Sỹ Bảo Nhân',
             studentId: '22IT198',
             introduction:
-                'Tôi luôn tin rằng việc bảo vệ rừng không chỉ giúp bảo tồn môi trường mà còn bảo vệ sự sống và tương lai của chính chúng ta.',
+                'Tớ không phải chuyên gia tâm lý đâu, tớ chỉ biết lắng nghe thôi.',
             facebook: 'https://www.facebook.com/hosybaonhan',
             github: 'https://github.com/bobaonhan123',
             avatar: './PublicAssets/Img/Bit0.jpg',
