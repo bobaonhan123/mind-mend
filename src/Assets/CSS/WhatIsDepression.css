@@ -53,6 +53,61 @@
     font-weight: bold;
     color: white;
   }
+
+  .what-is-depression .news-page {
+    width: 100%;
+    height: 100vh;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(237, 237, 237);
+    backdrop-filter: blur(5px);
+  }
+  
+  .what-is-depression .news-page > .title {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(84, 84, 84);
+  }
+  
+  .what-is-depression .news-pane {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 60vh;
+  }
+  
+  .what-is-depression .news-page > a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    color: #659bdb;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  
+  .what-is-depression .news-page > a:hover {
+    background-color: rgba(233, 233, 233, 0.905);
+  }
+  
+  .what-is-depression .contact-page {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+  }
   
   .what-is-depression .intro-page .intro-contentpane p {
     padding: 20px;
