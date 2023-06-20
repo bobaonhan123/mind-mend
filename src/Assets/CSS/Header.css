@@ -83,7 +83,7 @@ html,body{ scroll-behavior: smooth}
   margin-left: -10vw;
 }
 @media only screen and (max-width: 1400px) {
-  .logo {
+  .Header .logo {
     margin-left: unset;
   }
   .Header {
