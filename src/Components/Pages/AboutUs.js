@@ -10,21 +10,17 @@ function AboutUs() {
                 {/* Thông tin về Đề Tài */}
                 <div className="container__info">
                     <h1 className="container__title">
-                        FireWing - Cung cấp thông tin, dự báo cháy rừng ứng dụng công nghệ AI
+                        MindMend nơi lan tỏa những câu chuyện.
                     </h1>
                     <p className="container__description">
-                        FireWing là một trang web được phát triển bởi các sinh viên VKU với mục tiêu cung cấp thông tin
-                        và dự báo về cháy rừng sử dụng công nghệ AI.
+                    Tại MindMend, chúng tôi tin rằng tâm lý là một lĩnh vực quan trọng và có ảnh hưởng sâu sắc đến cuộc sống của chúng ta. Chúng tôi đã tạo ra một nền tảng đặc biệt để chia sẻ thông tin và câu chuyện về tâm lý, nhằm giúp mọi người tìm hiểu và thấy được sức mạnh của tâm trí.
+
                     </p>
                     <p className="container__description">
-                        FireWing giúp người dùng nắm bắt và cập nhật các thông tin về cháy rừng, bao gồm tình hình hiện
-                        tại, dự báo, đánh giá nguy cơ. AI được sử dụng để phân tích và xử lý dữ liệu, từ đó cung cấp
-                        thông tin chính xác và đáng tin cậy.
+                    Chúng tôi đã xây dựng trang này với mong muốn lan tỏa những câu chuyện và thông tin hữu ích, nhằm giúp mọi người khám phá và hiểu rõ hơn về chính bản thân mình, cũng như về người khác xung quanh.
                     </p>
-                    <p className="container__description">
-                        Chúng tôi cam kết đem đến cho người dùng những thông tin hữu ích và giúp tăng cường nhận thức về
-                        cháy rừng, từ đó đóng góp vào việc bảo vệ môi trường và sự an toàn cho cộng đồng.
-                    </p>
+                    {/* <p className="container__description">
+                    </p> */}
                 </div>
                 {/* Caroursel*/}
 
