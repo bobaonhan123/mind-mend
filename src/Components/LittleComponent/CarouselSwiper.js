@@ -21,7 +21,7 @@ const CarouselSwiper = () => {
             id: 1,
             name: 'Hoàng Tấn Phú Quốc',
             studentId: '22IT239',
-            introduction: 'Bảo vệ rừng, bảo vệ môi trường - Lí tưởng vì tương lai bền vững.',
+            introduction: 'Tâm lí là bản đồ của tâm hồn, mở cánh cửa để hiểu sâu hơn về bản thân',
             facebook: 'https://www.facebook.com/fbhoangtanphuquoc',
             github: 'https://github.com/phuquocchamp',
             avatar: './PublicAssets/Img/phuquocchamp.jpg',

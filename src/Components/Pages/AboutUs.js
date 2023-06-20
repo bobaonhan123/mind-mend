@@ -34,3 +34,4 @@ function AboutUs() {
 }
 
 export default memo(AboutUs);
+        
