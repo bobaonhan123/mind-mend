@@ -1,8 +1,11 @@
+import { Link } from 'react-router-dom';
 
 import '../../Assets/CSS/WhatIsDepression.css';
 import { useState, useRef, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
+import NewsComponent from '../LittleComponent/NewsComponent';
+import WhatIsDepressionNewsData from '../../Data/WhatIsDepressionNewsData';
 
 const WhatIsDepression = () => {
   const swiper = useRef(null);
@@ -17,6 +20,7 @@ useEffect(()=>{
   var classArr =['intro-img','intro-img intro-img2','intro-img intro-img3'];
   setClassNow(classArr[activeIndex]);
 },[activeIndex]);
+const DataArr = WhatIsDepressionNewsData();
   return (
     <div className='what-is-depression'>
       <div className={classNow}></div>
@@ -53,6 +57,15 @@ useEffect(()=>{
           </SwiperSlide>
         </Swiper>
 
+      </div>
+      <div className='news-page'>
+        <h1 className='title'>Bài viết</h1>
+        <div className='news-pane'>
+        {DataArr.map((data) => {
+            return (<NewsComponent key={data.id} data={data} />);
+          })}
+        </div>
+        <Link className='more' to='/News'>Xem thêm</Link>
       </div>
     </div>
   )
