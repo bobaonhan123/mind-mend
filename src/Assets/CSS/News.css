@@ -182,7 +182,7 @@
 @media only screen and (max-width: 600px) {
     .News {
         /* margin-top: 100%; */
-        margin-bottom: 570%;
+        margin-bottom: 730%;
     }
 
     .carousel__container {
@@ -206,6 +206,21 @@
     .news__blogs {
         margin-top: 50px;
         flex-direction: column;
+    }
+
+    .card__heading {
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .card__img {
+        padding-left: unset;
+    }
+    .card__description {
+        font-size: 0.6em;
+        text-align: justify;
+    }
+    .card__text {
+        display: none;
     }
 
     .left__column {
@@ -262,7 +277,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .News {
-        margin-bottom: 350%;
+        margin-bottom: 400%;
     }
 
     .news__header {
