@@ -2,27 +2,24 @@ const data =[
     {
         id:1,
         soucre:'boluminhhiuman',
-        title:'Hãy nói "Cố lên" ít đi',
-        description:`- “Hôm nay cậu có vẻ không ổn?”
-        - Không. Mình không ổn từ rất lâu rồi. Chỉ là hôm nay mình không có đủ năng lượng để che giấu nữa.`,
-        content:`Thực ra, đối với những người mắc bệnh tâm lý, những người đang phải vật lộn với bóng tối bên trong mình, để đến lúc cậu có cơ hội để nói với họ “Cố lên!”, thì đó cũng là lúc họ dường như không thể cố được nữa rồi.
-        Nếu họ vẫn còn cố gắng được thì chắc hẳn cậu sẽ không thể biết sự thật họ đang ở trong hoàn cảnh như vậy.
-        Vậy nên, không phải là họ không ý thức được hay chưa từng nhắc nhở bản thân mình “Cố lên!”, chỉ đơn giản là “sự cố gắng” của họ không giống như những gì cậu thường nghĩ.
-        Có những ngày, hít thở với họ cũng là một loại cố gắng.`,
-        imageURL:'./PublicAssets/Img/News/ID1.jpg',
-        URL:'https://www.facebook.com/boluminhhiuman/posts/pfbid02TjjW1fNGPyhYG612ATBqCMSaBn2Z1uXrMdWEEpEKm8QY64rPJTmRJDPzGybo276bl'
+        title:'Trầm cảm khiến tớ cảm thấy cô đơn ngay cả khi có bạn bè ở cạnh',
+        description:`Có lẽ, một trong những cảm giác thường trực khi sống với bệnh trầm cảm là cậu thấy mình cô đơn và tách biệt, dù cho có bao nhiêu người ở cạnh. Một nỗi cô đơn đau đớn và khó hiểu.`,
+        imageURL:'./PublicAssets/Img/News/ID1-p3.jpg',
+        URL:'https://www.facebook.com/boluminhhiuman/posts/pfbid0ZmRkQ18HfZyN68FFTwtr5N6AM54goz7SLuTjC1ocJtVYzcEXuoTL6VqLJfYcEG6yl'
     },
     {
         id:2,
-        soucre:'boluminhhiuman',
-        title:'Gửi tôi của nhiều năm về trước ...',
-        description:'“Dường như chỉ có tôi, đang một mình dò dẫm trong bóng tối. Cô đơn và tuyệt vọng”',
-        content:`Nhưng cậu à, cậu biết điều gì không? Thực ra vì đang ở trong bóng tối của mình nên chúng ta có thể không nhìn thấy được rằng thực tế, mọi người cũng đang mò mẫm và bước đi một cách mơ hồ như vậy. Không có ai là đã biết hết mọi câu trả lời.
-        Có người đi trong bóng tối nhưng tĩnh lặng, có người đi trong ánh sáng nhưng bão bùng, có người đi trong màn sương nhưng lạnh lẽo… Rất nhiều hành trình như thế. Vì vậy, cậu không hề cô đơn và cũng đừng sợ cảm giác cô đơn. Bởi nó không ở đó để làm hại cậu, mà là để nhắc cậu quay trở về quan tâm và yêu thương bản thân thật nhiều.
-        Và cậu biết điều gì thú vị về sự tuyệt vọng không? Đó chính là khi cậu thấy mình tuyệt vọng thì có nghĩa là cậu đã dùng hết những thứ cậu có thể tìm kiếm ở bên ngoài để làm lý do, làm động lực, làm sức mạnh cho mình, và đã đến lúc cậu cần khai phá tiềm năng nằm sâu bên trong để tìm ra những tài nguyên cần thiết cho việc bước tiếp trên hành trình mà cậu đang đi. Chúng không hề ít. Nhưng quan trọng là cậu cần kiên nhẫn đào sâu thêm từng chút để phát hiện.
-        Hãy tin tớ. Chỉ cần cậu kiên nhẫn, cậu rồi sẽ nhìn thấy lối ra. Lối ra đã ở đó chờ cậu rồi, chỉ cần trái tim cậu sẵn lòng để đón nhận thôi. Bằng cách nào ư? Bằng cách tin tưởng vào chính mình một cách hồn nhiên nhất trong từng khoảnh khắc hiện tại, kể cả khi cậu chưa nắm trong tay bất cứ một bằng chứng nào.`,
-        imageURL:'./PublicAssets/Img/News/ID2.jpg',
-        URL:'https://www.facebook.com/boluminhhiuman/posts/pfbid0qvLcJWoJx6jhgESftoakbbQfgQn2yBDGHBBXXfoJJTz4HzWAsYgewL71GCUQLhqel'
+        soucre:'Vinmec',
+        title:'Biểu hiện bệnh trầm cảm mức độ nhẹ',
+        description:`Bệnh trầm cảm (Depression), là bệnh rối loạn tâm trạng thường gặp. Người bệnh thường có tâm trạng buồn bã, có hoặc không kèm theo triệu chứng hay khóc. Không có động lực, giảm hứng thú trong mọi việc, kể cả những hoạt động nằm trong sở thích trước đây.
+
+        Trầm cảm ảnh hưởng đến cảm giác, suy nghĩ, hành xử của người bệnh, khiến cho người bệnh có thể gặp nhiều khó khăn trong cuộc sống, hay các vấn đề về thể chất và tinh thần.
+        
+        Bệnh trầm cảm phổ biến đến mức, có đến 80% dân số trên thế giới từng bị trầm cảm vào một lúc nào đó trong cuộc đời mình.Tần suất nguy cơ mắc bệnh trầm cảm trong suốt cuộc đời là 15 - 25%. Bệnh có thể gặp ở bất kỳ độ tuổi nào và thường phổ biến hơn ở nữ giới hơn nam giới. Hội chứng này có tỷ lệ cao ở những người ly thân, ly dị, thất nghiệp.
+        
+        Trầm cảm là bệnh, cần được quan tâm và điều trị. Ở bệnh nhân trầm cảm nhẹ, bệnh nhân có thể chưa cần phải dùng đến thuốc và tình trạng không quá nguy hiểm. Nhưng trên hết, người bệnh cần nhận được sự quan tâm của gia đình và người thân và cả bác sĩ để hỗ trợ khắc phục tình trạng này, bởi lẽ, trầm cảm có thể tồi tệ hơn rất nhiều nếu không được điều trị.`,
+        imageURL:'./PublicAssets/Img/News/ID2-p3.jpg',
+        URL:'https://www.vinmec.com/vi/tin-tuc/thong-tin-suc-khoe/bieu-hien-benh-tram-cam-muc-do-nhe/'
     },
     {
         id:3,
